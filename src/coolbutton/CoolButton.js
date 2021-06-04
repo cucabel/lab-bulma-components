@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 
 const CoolButton = props => {
+
+  const dictionary = {
+
+  }
+  
     return (
       <div>
         <button className={props.className}>{props.children}</button>
